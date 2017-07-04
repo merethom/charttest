@@ -33,14 +33,16 @@ html {
   text-align: center;
   letter-spacing: 0.025rem;
   color: #0d2240;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 .header h3{
   color: #fff;
   font-family: Montserrat;
   font-weigt: 700;
-  font-size: 0.65rem;
+  text-align: center;
+  letter-spacing: 0.025rem;
+  font-size: 0.75rem;
   line-height: 0.8rem;
   text-transform: uppercase;
 }
