@@ -18,33 +18,37 @@ html {
   padding: 0;
 }
 
-.header {
-  background-color: #0d2240;
+.cell, .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  padding: 0.5rem;
+}
+
+.cell h3 {
+  font-family: 'Titillium Web';
+  font-weight: 400i;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.025rem;
+  color: #0d2240;
+  font-size: 0.75rem;
+}
+
+.header h3{
   color: #fff;
   font-family: Montserrat;
   font-weigt: 700;
   font-size: 0.65rem;
   line-height: 0.8rem;
-  text-align: center;
   text-transform: uppercase;
-  padding: 1rem 1.5rem;
-}
-
-.body {
-  font-family: 'Titillium Web';
-  font-weight: 400i;
-  font-style: italic;
-  letter-spacing: 0.025rem;
-  color: #0d2240;
-  font-size: 0.75rem;
-  text-align: center;
-  padding: 1rem 1.5rem 0.85rem 1.5rem;
 }
 
 .grey {
   background-color: #efefef;
 }
 
-.fa {
-  color: #00afed;
+.navy {
+  background-color: #0d2240;
 }
