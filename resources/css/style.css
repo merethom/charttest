@@ -22,7 +22,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 4rem;
+  min-height: 2.5rem;
   padding: 0.5rem;
 }
 
