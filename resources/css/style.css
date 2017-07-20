@@ -130,4 +130,4 @@ html {
 .lightgreen {background-color:rgba(73, 198, 21, 0.15); color: #0d2240;}
 .lightnavy {background-color:rgba(13, 34, 64, 0.05); color: #0d2240;}
 
-.round {border-radius: 2.2rem 0 0 2.2rem; min-height: 4rem; }
+.round {border-radius: 2.2rem 0 0 2.2rem; min-height: 4rem; flex-direction: row; }
