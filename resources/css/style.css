@@ -17,9 +17,10 @@ html {
   width: 100%;
 }
 
-.row-3-col {
+
+.row-2-col {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -138,6 +139,8 @@ html {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+
+.taller {min-height: 4rem;}
 
 .grey { background-color: #efefef; color: #0d2240;}
 
