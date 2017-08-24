@@ -137,6 +137,16 @@ html {
   text-transform: uppercase;
 }
 
+.header h2{
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.025rem;
+  font-size: 1rem;
+  line-height: 0.8rem;
+  text-transform: uppercase;
+}
+
 .cell h4 {
   font-family: 'Titillium Web';
   font-weight: 400i;
