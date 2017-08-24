@@ -84,6 +84,13 @@ html {
   padding: 0.5rem;
 }
 
+.smspacer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.5rem;
+}
+
 .cell img {
   max-height: 2.125rem;
   max-width: 2.125rem;
