@@ -223,6 +223,8 @@ html {
 
 .taller {min-height: 4rem;}
 
+.shorter {min-height: 0rem;}
+
 .grey { background-color: #efefef; color: #0d2240;}
 
 .navy { background-color: #0d2240; color: #fff;}
