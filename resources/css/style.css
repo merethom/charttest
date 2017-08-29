@@ -223,7 +223,7 @@ html {
 
 .taller {min-height: 4rem;}
 
-.shorter {min-height: 0rem;}
+.shorter {min-height: 0rem; padding: 0.25rem;}
 
 .grey { background-color: #efefef; color: #0d2240;}
 
