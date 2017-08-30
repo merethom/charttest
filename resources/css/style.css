@@ -67,6 +67,14 @@ html {
   padding: 0;
 }
 
+.row-4-col-off {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr 3fr;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .row-5-col {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -109,15 +117,17 @@ html {
 
 .cell, .header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   min-height: 2rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
 }
 
 .flex-row {
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .spacer {
@@ -139,13 +149,11 @@ html {
   max-height: 2.125rem;
   max-width: 2.125rem;
   margin-right: 0.5rem;
-  align-items: center;
 }
 
 .cell h3 img {
   max-height: 3.5rem;
   max-width: 20rem;
-  margin: 0 auto;
   padding: 1rem 0;
 }
 
@@ -153,7 +161,6 @@ html {
   font-family: 'Titillium Web';
   font-weight: 400i;
   font-style: italic;
-  text-align: center;
   letter-spacing: 0.025rem;
   font-size: 0.95rem;
   display: block;
@@ -161,8 +168,8 @@ html {
 
 .cell h5 {
   font-family: 'Titillium Web';
-  font-size: 2.5rem;
-  font-weight: 900;
+  font-size: 2.25rem;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.025rem;
   display: block;
@@ -248,4 +255,9 @@ html {
 .lightgreen {background-color:rgba(73, 198, 21, 0.2); color: #0d2240;}
 .lightnavy {background-color:rgba(13, 34, 64, 0.05); color: #0d2240;}
 
-.round {border-radius: 2.2rem 0 0 2.2rem; min-height: 4rem; flex-direction: row; }
+.round {
+  border-radius: 2.2rem 0 0 2.2rem;
+  min-height: 4rem;
+  flex-direction: row;
+  align-items: center;
+}
